@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        BODY {
+            background-color: rgb(56, 63, 102);
+        }
+        .form {
+            background-color: rgb(82, 64, 41);
+            margin-left: 20rem;
+            margin-right: 2rem;
+            text-align: center;
+            width: 20rem;
+            height: 60x;
+            text-transform: inherit;
+            border-color: blue;
+            border-radius: 5%;
+            line-height: 18px; /* Adjusted for vertical alignment */
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: larger;
+            font-style: initial;
+            font-weight: bolder;
+            text-shadow: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="form">
+    <h1>Input Form</h1>
+    
+    <form action="table.html" method="GET">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="place">Place:</label>
+        <input type="text" id="place" name="place" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="0" max="100" required><br><br>
+
+        <label>Sex:</label><br>
+        <input type="radio" id="male" name="sex" value="Male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="sex" value="Female" required>
+        <label for="female">Female</label><br><br>
+
+        <label for="level">Level:</label>
+        <select id="level" name="level" required>
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+        </select><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>

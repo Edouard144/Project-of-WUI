@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submitted Data</title>
+</head>
+<body>
+    <h1>Submitted Data</h1>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Date of Birth</th>
+            <th>Place</th>
+            <th>Age</th>
+            <th>Sex</th>
+            <th>Level</th>
+        </tr>
+        <tr>
+            <td><script>document.write(new URLSearchParams(window.location.search).get('name'));</script></td>
+            <td><script>document.write(new URLSearchParams(window.location.search).get('email'));</script></td>
+            <td><script>document.write(new URLSearchParams(window.location.search).get('dob'));</script></td>
+            <td><script>document.write(new URLSearchParams(window.location.search).get('place'));</script></td>
+            <td><script>document.write(new URLSearchParams(window.location.search).get('age'));</script></td>
+            <td><script>document.write(new URLSearchParams(window.location.search).get('sex'));</script></td>
+            <td><script>document.write(new URLSearchParams(window.location.search).get('level'));</script></td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+
+
+
+
+
